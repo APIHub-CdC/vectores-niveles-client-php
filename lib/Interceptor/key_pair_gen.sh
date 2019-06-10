@@ -5,8 +5,8 @@ CERTIFICATE_FILE=certificate.pem
 CERTIFICATE_CDC=cdc_cert.pem
 SUBJECT=/C=MX/ST=MX/L=MX/O=CDC/CN=CDC
 PKCS12_FILE=keypair.p12
-ALIAS=cdc
-KEY_PASSWORD=your_password
+ALIAS=circulo
+# KEY_PASSWORD=your_password
 
 # Borra todos los archivos
 if [ -f ${PRIVATE_KEY_FILE} ]; then

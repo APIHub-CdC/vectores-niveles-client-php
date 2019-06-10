@@ -13,15 +13,13 @@ Desktop.ini
 
 # ignore Composer downloads
 /vendor/*
-*./lock
 
 # keep some hiddens
 !.htaccess
 !/.gitignore
 .travis.yml
-phpunit.xml.dist
+
 
 # ignore keys
-
 lib/Interceptor/*.p12
 lib/Interceptor/*.pem
