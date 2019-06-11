@@ -62,34 +62,31 @@ openssl pkcs12 -name ${ALIAS} \
     -in ${CERTIFICATE_FILE} -password pass:${KEY_PASSWORD}
 ```
 
-### Paso 2. Cargar el certificado dentro del portal de desarrolladores
-
+### Paso 2. Carga del certificado dentro del portal de desarrolladores
  1. Iniciar sesión.
  2. Dar clic en la sección "**Mis aplicaciones**".
  3. Seleccionar la aplicación.
  4. Ir a la pestaña de "**Certificados para @tuApp**".
-<p align="center">
-  <img src="https://github.com/APIHub-CdC/imagenes-cdc/blob/master/applications.png">
-</p>
+    <p align="center">
+      <img src="https://github.com/APIHub-CdC/imagenes-cdc/blob/master/applications.png">
+    </p>
  5. Al abrirse la ventana emergente, seleccionar el certificado previamente creado y dar clic en el botón "**Cargar**":
-<p align="center">
-  <img src="https://github.com/APIHub-CdC/imagenes-cdc/blob/master/upload_cert.png" width="268">
-</p>
+    <p align="center">
+      <img src="https://github.com/APIHub-CdC/imagenes-cdc/blob/master/upload_cert.png" width="268">
+    </p>
 
-### Paso 3. Descargar el certificado de Círculo de Crédito dentro del portal de desarrolladores
-
+### Paso 3. Descarga del certificado de Círculo de Crédito dentro del portal de desarrolladores
  1. Iniciar sesión.
  2. Dar clic en la sección "**Mis aplicaciones**".
  3. Seleccionar la aplicación.
  4. Ir a la pestaña de "**Certificados para @tuApp**".
-<p align="center">
-  <img src="https://github.com/APIHub-CdC/imagenes-cdc/blob/master/applications.png">
-</p>
-
- 4. Al abrirse la ventana emergente, dar clic al botón "**Descargar**":
-<p align="center">
-  <img src="https://github.com/APIHub-CdC/imagenes-cdc/blob/master/download_cert.png" width="268">
-</p>
+  <p align="center">
+    <img src="https://github.com/APIHub-CdC/imagenes-cdc/blob/master/applications.png">
+  </p>
+ 5. Al abrirse la ventana emergente, dar clic al botón "**Descargar**":
+  <p align="center">
+    <img src="https://github.com/APIHub-CdC/imagenes-cdc/blob/master/download_cert.png" width="268">
+  </p>
 
  > Es importante que este contenedor sea almacenado en la siguiente ruta:
  > **/path/to/repository/lib/Interceptor/keypair.p12**
